@@ -345,3 +345,28 @@ footer p:nth-child(2){
  bottom: 35px;
  font-size: 14px;
 }
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero{
+    width: 100%;
+    float: none;
+  }
+
+  .contact{
+  margin-top: 20%;}
+
+  .about{
+    display: block;
+  }
+
+  .about-text p{
+    width: 100%;
+    float: none;
+  }
+}
